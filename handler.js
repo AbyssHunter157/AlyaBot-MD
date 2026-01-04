@@ -207,7 +207,6 @@ if (!user.stats[today]) user.stats[today] = { msgs: 0, cmds: 0 }
    }
     const comando = m.text.slice(prefix.length);
     if (cmdData.isOwner && !global.owner.map(num => num + '@s.whatsapp.net').includes(sender)) return m.reply(`ꕤ El comando *${command}* no existe.\n✎ Usa *${prefix}help* para ver la lista de comandos disponibles.`)
-    if (cmdData.isModeration && !global.mods.map(num => num + '@s.whatsapp.net').includes(sender)) return m.reply(`ꕤ El comando *${command}* no existe.\n✎ Usa *${prefix}help* para ver la lista de comandos disponibles.`)
     if (cmdData.isAdmin && !isAdmins) return client.reply(m.chat, mess.admin, m)
     if (cmdData.botAdmin && !isBotAdmins) return client.reply(m.chat, mess.botAdmin, m)
 

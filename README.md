@@ -25,10 +25,10 @@ Alya Bot es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofre
 
 ---
 
-## 🌾 Informaciones Importantes
+## 🌴 Informaciones Importantes
 
 <details>
-<summary><strong>⛄ Información</strong> — Warning</summary>
+<summary><strong>🌵 Información</strong> — Warning</summary>
 
 **El bot no funciona en Termux bajo ninguna circunstancia.**  
 No ofrecemos soporte, compatibilidad ni soluciones para ese entorno.  
@@ -37,7 +37,7 @@ No ofrecemos soporte, compatibilidad ni soluciones para ese entorno.
 </details>
 
 <details>
-<summary><strong>⛄ Información</strong> — Recomendado</summary>
+<summary><strong>🌵 Información</strong> — Recomendado</summary>
 
 Evita completamente usar forks, mods o versiones alteradas de Baileys.
 No utilices “baileys mods” ni variantes no oficiales.
@@ -46,7 +46,7 @@ Siempre usa la librería principal y oficial de Baileys.
 </details>
 
 <details>
-<summary><strong>⛄ Información</strong> — Oficial</summary>
+<summary><strong>🌵 Información</strong> — Oficial</summary>
 
 Quiero dejar algo completamente claro: mi base es única, original y desarrollada por mí.  
 Fue creada desde cero por **Carlos (AzamiJs)**, quien posteriormente se retiró del proyecto.  

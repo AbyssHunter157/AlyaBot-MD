@@ -151,12 +151,11 @@ cd && cd AlyaBot-MD && npm start
 ```
 ---
 
-### Obtener nuevo código QR 
+### Obtener nuevo inicio de Sessión 
 > *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `AlyaBot-MD $`*
-
-### Obtener nuevo inicio de sessión 
+ 
 ```bash 
-cd && cd AlyaBot-MD && rm -rf Sessions/Ownee && npm start
+cd && cd AlyaBot-MD && rm -rf Sessions/Owner && npm start
 ```
 </details>
 

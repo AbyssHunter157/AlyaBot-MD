@@ -114,7 +114,6 @@ npm start
 </details>
 
 <details>
-<details>
 <summary><strong>🦦 Comandos para tener mas tiempo activo</strong> — el Bot</summary>
 
 > *Ejecutar estos comandos dentro de la carpeta AlyaBot-MD*

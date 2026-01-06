@@ -110,7 +110,7 @@ const prefixxy = ['/', '#', '!', '-', '+', '.']
 const hasPrefix = prefixxy.some(prefix => m.text?.startsWith(prefix))
 
 function getAllSessionBots() {
-  const sessionDirs = ['./Sessions/Subs']
+  const sessionDirs = ['./Sessions/Subs', './Sessions/Mods', './Sessions/Prems']
   let bots = []
   for (const dir of sessionDirs) {
     try {

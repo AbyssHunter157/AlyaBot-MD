@@ -1,6 +1,6 @@
 import { getDevice } from '@whiskeysockets/baileys'
 import moment from 'moment-timezone'
-import { commands } from '../../lib/comandos.js'
+import { commands } from '../../lib/system/comandos.js'
 
 export default {
   command: ['allmenu', 'help', 'menu'],

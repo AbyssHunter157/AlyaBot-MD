@@ -5,7 +5,7 @@ export default {
   category: "info",
   run: async (client, m, args, { prefix }) => {
     const start = Date.now();
-    const txct = "⏰ Cargando ping…"
+    const txct = "❀ Cargando ping…"
     const tempMsg = await client.sendMessage(
       m.key.remoteJid,
       { text: txct },
@@ -23,14 +23,17 @@ export default {
     const sender = m.sender.replace(/@.+/, "");
 
     const msg = `
-﹒⌗﹒🌾 .˚₊‧  Hola, ${userTag} ☀️.
+﹒⌗﹒亗 .˚₊‧  Hola, ${userTag}.
 
-\`𓍯  .→﹒ Ping Status .  ◌Ⳋ𝅄\`
+\`ꕥ  .→﹒ Ping Status .  ◌Ⳋ𝅄\`
 
-🌾 \`Ping:\` ${latency} ms
-🍃 \`Uptime:\` [ ${h}h ${min}m ${s}s ]
-🌱 \`RAM usada:\` ${ram} MB
-🌷 \`Usuario ID:\` @${sender}`.trim(); 
+❀ \`Ping:\` ${latency} ms
+ⴵ \`Uptime:\` [ ${h}h ${min}m ${s}s ]
+✥ \`RAM usada:\` ${ram} MB
+✎ \`Usuario ID:\` @${sender}
+
+
+> ❀s᥆⍴һіᥲ ᥕᥲ ᑲ᥆𝗍 - ⍴᥆ᥕᥱrᥱძ s⍴ᥲᥴᥱᥒіgһ𝗍 𝗍ᥱᥲm❀`.trim(); 
 
     await client.sendMessage(
       m.key.remoteJid,
